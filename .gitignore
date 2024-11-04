@@ -16,6 +16,13 @@ crash.*.log
 *.tfvars
 *.tfvars.json
 
+# Arquivos de chaves SSH
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+mgccloud-grn
+mgccloud-grn.pub
 # Ignore override files as they are usually used to override resources locally and so
 # are not checked in
 override.tf
