@@ -12,6 +12,7 @@ module "ssh_key" {
   ssh_key_value = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIP+E3U/DpNagT79ueF+xQn9dNFUKheopjx/kIBC1qQM3"
 }
 
+```
 ## Requisitos
 
 | Name                                                          | Version |
