@@ -6,7 +6,7 @@ Este módulo Terraform adiciona uma nova chave SSH à sua conta da Magalu Cloud.
 
 ```terraform
 module "ssh_key" {
-  source = "https://github.com/terraform-mgc-modules/mgc_ssh_keys.git"
+  source = "https://github.com/terraform-mgc-modules/mgc_ssh_keys.git?ref=v1.0.0"
 
   ssh_key_name  = var.ssh_key_name
   ssh_key_value = var.ssh_key_value
@@ -57,7 +57,7 @@ A chave SSH é um dado sensível e não deve ser incluída diretamente no códig
 ### Exemplo de `terraform.tfvars`
 
 ```hcl
-ssh_key_value = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIP+E3U/DpNagT79ueF+xQn9dNFUKheopjx/kIBC1qQM3"
+ssh_key_value = "ssh-ed25519 EXAMPLE_KEY_REPLACE_WITH_YOUR_ACTUAL_SSH_KEY"
 ```
 
 ### Fluxo de Utilização
