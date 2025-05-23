@@ -60,6 +60,18 @@ A chave SSH é um dado sensível e não deve ser incluída diretamente no códig
 ssh_key_value = "ssh-ed25519 EXAMPLE_KEY_REPLACE_WITH_YOUR_ACTUAL_SSH_KEY"
 ```
 
+### Comandos úteis da CLI
+
+Para listar as chaves SSH disponíveis na sua conta Magalu Cloud, você pode usar o seguinte comando:
+```bash
+mgc profile ssh-keys list
+```
+
+Para remover uma chave SSH, utilize o seguinte comando:
+```bash
+mgc profile ssh-keys delete ID_DA_CHAVE
+```
+
 ### Fluxo de Utilização
 
 1. Crie um arquivo `terraform.tfvars` no mesmo diretório do seu arquivo `.tf`.
